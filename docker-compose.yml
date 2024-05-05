@@ -1,0 +1,9 @@
+services:
+  ubuntu:
+    build: 
+      context: .
+    volumes:
+      - ./:/server
+    ports:
+      - 25565:25565
+    
